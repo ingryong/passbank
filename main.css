@@ -3,13 +3,14 @@ body {
   width: 100%;
   background-color: #f7f7f7;
   font-family: "Noto Sans KR", sans-serif;
+  overflow-x: hidden;
 }
 
 .top-blank {
   width: 100%;
   height: 40px;
 }
-
+/*타이틀바*/
 .title-bar {
   width: 100%;
   height: 40px;
@@ -35,7 +36,45 @@ body {
   text-align: center;
 }
 
+/*서브타이틀*/
 .sub-script {
   font-size: 1.4rem;
   line-height: 1.5rem;
+}
+
+/*뱅크카드*/
+
+.bank-card {
+  width: 100%;
+  padding: 1%;
+  position: relative;
+}
+
+.car-title {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.bank {
+  width: 100%;
+}
+
+.bank > .card {
+  width: 45%;
+  height: 52px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  background-color: #fff;
+  display: inline-block;
+  font-size: 0.9rem;
+  margin: 1%;
+}
+
+.bank > .card > img {
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  border: 1px solid #dadada;
+  border-radius: 5px;
 }
