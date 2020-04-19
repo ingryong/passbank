@@ -87,11 +87,11 @@ body {
 
 /*--- 계좌입력페이지 ---*/
 .input-card {
-  width: 98%;
-  margin: 1%;
+  width: 100%;
+  margin: auto;
 }
 .input-card > div > input {
-  width: 100%;
+  width: 96%;
   margin: auto;
   top: 0;
   left: 0;
@@ -103,9 +103,9 @@ body {
   font-size: 1rem;
 }
 .btn-bar {
-  width: 100%;
+  width: 96%;
+  padding: 15px 0px;
   margin-top: 30px;
-  padding: 10px;
   background-color: #4c81e2;
   text-align: center;
   color: white;
