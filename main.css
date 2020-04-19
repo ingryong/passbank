@@ -62,7 +62,7 @@ body {
 }
 .bank > .card {
   width: 45%;
-  height: 62px;
+  height: 68px;
   border: 1px solid #dadada;
   border-radius: 10px;
   background-color: #fff;
@@ -72,17 +72,17 @@ body {
 }
 .bank > .card > img {
   float: left;
-  width: 30px;
-  height: 30px;
-  margin: 15px 10px;
+  width: 32px;
+  height: 32px;
+  margin: 17px 10px;
   border: 1px solid #dadada;
   border-radius: 5px;
 }
 .bank > .card > p {
   flex: 1;
-  height: 62px;
+  height: 68px;
   margin: auto;
-  line-height: 62px;
+  line-height: 68px;
 }
 
 /*--- 계좌입력페이지 ---*/
