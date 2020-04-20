@@ -10,10 +10,13 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script>
       function inNumber(){
-  if(event.keyCode<48 || event.keyCode>57){
-     event.returnValue=false;
-  }
-}
+        if(event.keyCode<48 || event.keyCode>57){
+          event.returnValue=false;
+        }
+      }
+
+    function maxLengthCheck(object){ if (object.value.length > object.maxLength){ object.value = object.value.slice(0, object.maxLength); } }
+
     </script>
   </head>
   <body>
@@ -39,7 +42,7 @@
         pattern="\d*"
           placeholder="계좌 번호"
           maxlength="16"
-          oninput="numberMaxLength(this);"
+          oninput="maxLengthCheck(this);"
           onkeypress="inNumber();"
         />
       </div>
