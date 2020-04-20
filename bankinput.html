@@ -15,7 +15,7 @@
     <div class="top-blank"></div>
     <div class="title-bar">
       <div class="title-left">
-        <a href="index"><img src="./images/back.png" /></a>
+        <a href="./index"><img src="./images/back.png" /></a>
       </div>
       <div class="title-name">계좌번호 입력</div>
       <div class="title-right"></div>
@@ -29,14 +29,14 @@
     <!--인풋-->
     <div class="input-card">
       <div class="input-bank">
-        <input
+        <input type="number"
           placeholder="계좌 번호"
           maxlength="16"
           oninput="numberMaxLength(this);"
         />
       </div>
       <div class="input-name">
-        <input placeholder="예금주명" maxlength="8" />
+        <input type="text" placeholder="예금주명" maxlength="8" />
       </div>
       <div class="btn-bar">확인</div>
     </div>
