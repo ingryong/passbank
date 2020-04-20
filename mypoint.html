@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="language" content="ko" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=0;"
+    />
+
+    <title>PASS-내포인트</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script>
+      function page() {
+        location.href = "./bankinput";
+      }
+    </script>
+  </head>
+  <body>
+    <!--타이틀바-->
+    <div class="top-blank"></div>
+    <div class="title-bar">
+      <div class="title-left">
+        <a></a>
+      </div>
+      <div class="title-name">내 포인트</div>
+      <div class="title-right"></div>
+    </div>
+
+    <!--보유포인트-->
+    <div class="shadow-box">
+      <div class="box-title">총 보유 포인트</div>
+      <div class="point">
+        <span>12,111 P</span><a href="./withdraw">출금</a>
+      </div>
+    </div>
+
+    <!--나의계좌-->
+    <div class="shadow-box">
+      <div class="box-title">나의 계좌</div>
+      <div class="bank-info">
+        <span>KB국민</span>
+        <span>12345678912345</span>
+        <span>홍길동</span>
+      </div>
+      <div class="bank-btn"><a href="./index.html">변경</a></div>
+    </div>
+
+    <!--포인트내역-->
+    <div class="shadow-box">
+      <div class="box-title">포인트 내역</div>
+      <div class="point-list">
+        <div class="pl-left"><img /></div>
+        <div class="pl-center">
+          <span>OMR입력완료</span><span>2020대학수학능력시험 국어</span>
+        </div>
+        <div class="pl-right">
+          <span>2020-04-13 17:19</span><span>+100</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
