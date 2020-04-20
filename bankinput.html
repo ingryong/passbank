@@ -8,7 +8,13 @@
 
     <title>PASS-계좌번호입력</title>
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <script>
+      function inNumber(){
+  if(event.keyCode<48 || event.keyCode>57){
+     event.returnValue=false;
+  }
+}
+    </script>
   </head>
   <body>
     <!--타이틀바-->
@@ -29,10 +35,11 @@
     <!--인풋-->
     <div class="input-card">
       <div class="input-bank">
-        <input type="number"
+        <input type="text"
           placeholder="계좌 번호"
           maxlength="16"
           oninput="numberMaxLength(this);"
+          onkeypress="inNumber();"
         />
       </div>
       <div class="input-name">
