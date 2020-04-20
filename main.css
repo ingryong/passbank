@@ -91,7 +91,7 @@ body {
   width: 100%;
   margin: auto;
 }
-.input-card > div{
+.input-card > .input-bank{
   padding:4px 0;
 }
 .input-card > div > input {
