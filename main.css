@@ -69,6 +69,7 @@ body {
   display: inline-block;
   font-size: 0.9rem;
   margin: 1%;
+  cursor: pointer;
 }
 .bank > .card > img {
   float: left;
