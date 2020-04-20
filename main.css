@@ -1,6 +1,5 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 body {
-  width: 100%;
   background-color: #f7f7f7;
   font-family: "Noto Sans KR", sans-serif;
   overflow-x: hidden;
@@ -66,7 +65,7 @@ a {
   width: 100%;
 }
 .bank > .card {
-  width: 45%;
+  width: 46%;
   height: 68px;
   border: 1px solid #dadada;
   border-radius: 10px;
@@ -100,7 +99,7 @@ a {
   padding: 4px 0;
 }
 .input-card > div > input {
-  width: 94%;
+  width: 100%;
   margin: auto;
   top: 0;
   left: 0;
@@ -113,7 +112,7 @@ a {
   font-size: 1rem;
 }
 .btn-bar {
-  width: 96%;
+  width: 100%;
   padding: 15px 0px;
   margin-top: 30px;
   background-color: #4c81e2;
@@ -125,7 +124,8 @@ a {
 .shadow-box {
   width: 94%;
   min-height: 100px;
-  margin: 20px 0;
+  padding-bottom: 10px;
+  margin: 20px auto;
   border-radius: 10px;
   background-color: #ffffff;
   box-shadow: 3px 5px 10px #cacaca;
@@ -134,6 +134,7 @@ a {
 .box-title {
   padding-left: 14px;
   padding-top: 14px;
+  padding-bottom: 8px;
   font-size: 1rem;
 }
 
@@ -143,15 +144,16 @@ a {
   padding-right: 14px;
   position: relative;
 }
-.shadow-box > .point > a {
+.shadow-box > .point > span > a {
   padding: 8px 20px;
   border-radius: 6px;
   background-color: #4c81e2;
   color: #fff;
+  font-size: 0.8rem;
 }
 .shadow-box > .point > span {
-  font-size: 1.8rem;
-  padding-right: 10px;
+  font-size: 1.7rem;
+  padding-left: 10px;
 }
 .bank-info {
   padding-left: 14px;
@@ -170,10 +172,65 @@ a {
 .bank-btn {
   float: right;
   padding-right: 14px;
+  margin-top: 10px;
 }
 .bank-btn a {
   background-color: #999999;
   padding: 8px 20px;
   border-radius: 6px;
   color: #fff;
+}
+
+.point-list {
+  position: relative;
+  display: flex;
+  padding: 10px;
+  flex: 1;
+  font-size: 0.8rem;
+}
+.point-list > .pl-left > img {
+  width: 40px;
+  height: 40px;
+}
+.point-list > div {
+  position: relative;
+  display: inline-block;
+}
+.point-list > div:first-child {
+  width: 15%;
+}
+.point-list > div:nth-child(2) {
+  width: 55%;
+}
+.point-list > div:nth-child(3) {
+  width: 30%;
+}
+.point-list > div > span {
+  display: flex;
+}
+
+.pl-center > span:first-child {
+  font-size: 1rem;
+  overflow: hidden;
+}
+.pl-center > span:nth-child(2) {
+  font-size: 0.7rem;
+  color: #999999;
+  overflow: visible;
+}
+
+.pl-right > span:first-child {
+  font-size: 0.7rem;
+  float: right;
+}
+.pl-right > span:nth-child(2) {
+  font-size: 0.9rem;
+  float: right;
+}
+
+.pl-right > span.plus {
+  color: rgb(44, 189, 44);
+}
+.pl-right > span.minus {
+  color: rgb(255, 122, 122);
 }
