@@ -53,6 +53,9 @@ a {
   padding-left: 2%;
 }
 
+
+
+
 /*---뱅크 페이지---*/
 .bank-card {
   width: 100%;
@@ -92,6 +95,8 @@ a {
   line-height: 68px;
 }
 
+
+
 /*--- 계좌입력페이지 ---*/
 .input-card {
   margin: auto;
@@ -123,6 +128,9 @@ a {
   color: white;
 }
 
+
+
+
 /*--- 총보유포인트 ---*/
 .shadow-box {
   width: 94%;
@@ -144,7 +152,7 @@ a {
 .shadow-box > .point {
   flex: 1;
   float: right;
-  padding-right: 14px;
+  padding-right: 18px;
   position: relative;
 }
 .shadow-box > .point > span > a {
@@ -159,7 +167,7 @@ a {
   padding-left: 10px;
 }
 .bank-info {
-  padding-left: 14px;
+  padding-left: 18px;
   position: relative;
   display: inline-block;
   padding-bottom: 10px;
@@ -174,7 +182,7 @@ a {
 
 .bank-btn {
   float: right;
-  padding-right: 14px;
+  padding-right: 18px;
   margin-top: 10px;
 }
 .bank-btn a {
@@ -187,7 +195,7 @@ a {
 .point-list {
   position: relative;
   display: flex;
-  padding: 10px;
+  padding: 10px 18px;
   flex: 1;
   font-size: 0.8rem;
 }
@@ -220,6 +228,7 @@ a {
   font-size: 0.7rem;
   color: #999999;
   overflow: visible;
+  line-height: 0.7rem;
 }
 
 .pl-right > span:first-child {
