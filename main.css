@@ -275,3 +275,31 @@ a {
   border: none;
   background-color: #f7f7f7;
 }
+
+/*--- 출금 신청 ---*/
+.withdraw-info{
+  padding-left: 18px;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+.withdraw-info > span {
+  display: flex;
+  font-size:0.7rem;
+  color:#999999
+}
+.withdraw-info > span:first-child {
+  font-size: 0.9rem;
+  color: #4c81e2;
+}
+.withdraw-btn{
+  float:right;
+  padding-right:18px;
+}
+
+.withdraw-btn a {
+  background-color: #999999;
+  padding: 8px 20px;
+  border-radius: 6px;
+  color: #fff;
+}
