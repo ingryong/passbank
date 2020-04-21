@@ -101,7 +101,7 @@ a {
   padding: 4px 0;
 }
 .input-card > div > input {
-  width: 100%;
+  width: -webkit-fill-available;
   margin: auto;
   top: 0;
   left: 0;
