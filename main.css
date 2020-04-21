@@ -95,6 +95,8 @@ a {
 /*--- 계좌입력페이지 ---*/
 .input-card {
   margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 .input-card > .input-bank {
   padding: 4px 0;
@@ -253,6 +255,7 @@ a {
 .input-withdraw {
   height: 100px;
   padding: 10px;
+  display:flex;
 }
 .input-withdraw input {
   width: 80%;
