@@ -94,7 +94,6 @@ a {
 
 /*--- 계좌입력페이지 ---*/
 .input-card {
-  width: 100%;
   margin: auto;
 }
 .input-card > .input-bank {
